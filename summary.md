@@ -8,7 +8,7 @@
 * [Create the MiGA Container](create-container/readme.md)  
     * [Installing Locally](create-container/create-local-container.md) 
     * [Installing on a Cluster](create-container/cluster-installation.md)  
-* [Add a Reference Database](create-container/add-a-reference-database.md)
+* [Add a Reference Database](create-container/add-reference-database.md)
     * [MiGA-Web]create-container/miga-web-add-reference-database.md)
     * [MiGA-CLI]create-container/cli-add-reference-database.md)
 * [Running Projects using MiGA-Web](web-projects/README.md)  
