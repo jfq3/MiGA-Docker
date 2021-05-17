@@ -1,4 +1,4 @@
-# Installing Docker Desktop
+# Installing Docker Desktop for Windows
 
 Before installing Docker Desktop in Windows, you must make sure that your computer and Windows version meet the minimum requirements outlined below. Refer to the Docker installation instructions at [https://docs.docker.com/docker-for-windows/install/](https://docs.docker.com/docker-for-windows/install/) if the instructions below still leave you wondering.
 
