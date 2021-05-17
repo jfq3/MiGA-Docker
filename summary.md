@@ -10,7 +10,7 @@
     * [Installing on a Cluster](create-container/cluster-installation.md)  
 * [Add a Reference Database](create-container/add-reference-database.md)
     * [MiGA-Web](create-container/miga-web-add-reference-database.md)
-    * [MiGA-CLI](create-container/cli-add-reference-database.md)
+    * [MiGA-CLI](create-container/miga-cli-add-reference-database.md)
 * [Running Projects using MiGA-Web](web-projects/README.md)  
     * [Create a Genome Project](web-projects/create-a-reference-genome-project.md)  
     * [Classify a Genome](web-projects/classify_intro.md)  
