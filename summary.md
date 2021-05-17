@@ -1,7 +1,7 @@
 # Table of contents
 
 * [MiGA-Docker](README.md)  
-* [Instaling Docker](installation/installing_docker.md)  
+* [Installing Docker](installation/installing-docker.md)  
     * [Docker Desktop for Windows](installation/installing-docker-windows.md)  
     * [Docker Desktop for Mac OS](installation/installing-docker-mac.md)  
     * [Docker for Linux](installation/installing-docker-linux.md)  
