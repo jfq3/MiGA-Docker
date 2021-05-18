@@ -22,7 +22,7 @@
     * [Create a Genome Project](cli-projects/create-a-reference-genome-project.md)  
     * [Classify a Genome](cli-projects/classify-intro.md)  
         * [Using Your Own Project](cli-projects/using-your-own-project.md)  
-        * [Using a Reference Database](cli-projects/using-a-reference-database.md)  
+        * [Using a Reference Database](cli-projects/using-your-own-project.md)  
     * [Create a Clade Project](cli-projects/create-a-clade-project.md)  
     * [Assemble a Genome](cli-projects/assemble-a-genome.md)  
 * [Submitting Jobs to a Cluster](cluster-projects/README.md)
