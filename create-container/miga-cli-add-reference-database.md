@@ -1,6 +1,6 @@
 # Add Reference Databases from the Command Line
 
-Installation of the databases using the command line interface is the same for both a local and cluster installations.  
+Installation of the databases using the command line interface is the same for both local and cluster installations.  
 
 Being so much smaller, **Phyla_Lite** takes only a few minutes to install. With **MiGA** running, the following command will install it in the default location `~/.miga_db`:  
 
