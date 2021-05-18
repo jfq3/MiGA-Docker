@@ -5,7 +5,7 @@
     * [Docker Desktop for Windows](installation/installing-docker-windows.md)  
     * [Docker Desktop for Mac OS](installation/installing-docker-mac.md)  
     * [Docker for Linux](installation/installing-docker-linux.md)  
-* [Create the MiGA Container](create-container/greate-intro.md)  
+* [Create the MiGA Container](create-container/create-intro.md)  
     * [Installing Locally](create-container/create-local-container.md) 
     * [Installing on a Cluster](create-container/cluster-installation.md)  
 * [Add a Reference Database](create-container/add-reference-database.md)
