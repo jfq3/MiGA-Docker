@@ -36,5 +36,7 @@
     * [Submitting a Clade Project](cluster-projects/submitting-clade-project.md)
     * [Submitting Large Jobs](cluster-projects/submitting-large-jobs.md)
 * [Exploring Results](results/README.md)
-    * [Project Results](results/project_results.md)
-    * [Genome Results](results/genome_results.md)
+    * [Browsing MiGA-Web Results](results/README.md) 
+        * [Project Results](results/project_results.md)
+        * [Genome Results](results/genome_results.md)
+    *[Accessing MiGA-CLI Results](results/exploring_results.md)]
