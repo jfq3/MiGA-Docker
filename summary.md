@@ -31,7 +31,7 @@
         * [Adding Classification](cluster-projects/submitting-add-classification.md)
         * [Adding a Quey](cluster-projects/submitting-add-query.md)
     * [Submitting a Genome Project with Classification](cluster-projects/submitting-genome-with-classification.md)
-    * [Submitting a Clade Project](cluster-projects/submitting-clade-project)
+    * [Submitting a Clade Project](cluster-projects/submitting-clade-project.md)
     * [Submitting Large Jobs](cluster-projects/submitting-large-jobs.md)
 * [Exploring Results](results/README.md)
     * [Project Results](results/project_results.md)
