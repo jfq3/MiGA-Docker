@@ -20,7 +20,7 @@
     * [Assemble a Genome](web-projects/assemble-a-genome.md) 
 * [Running Projects Interactively from the Command Line](cli-projects/README.md)  
     * [Create a Genome Project](cli-projects/create-a-reference-genome-project.md)  
-    * [Classify a Genome](cli-projects/classify_intro.md)  
+    * [Classify a Genome](cli-projects/classify-intro.md)  
         * [Using Your Own Project](cli-projects/using-your-own-project.md)  
         * [Using a Reference Database](cli-projects/using-a-reference-database.md)  
     * [Create a Clade Project](cli-projects/create-a-clade-project.md)  
