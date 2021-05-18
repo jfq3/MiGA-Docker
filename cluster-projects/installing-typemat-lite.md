@@ -1,4 +1,4 @@
-This script is provided as a convenient way of obtaining the latest version of the TypeMat_Lite indexed reference database. As of August 2020, this database contains more than 13,500 genomes from type material. By attaching it to a genome project, reference genomes submitted to the project are classified relative to the closest match in the database.
+This script is provided as a convenient way of obtaining the latest version of the TypeMat_Lite database which contains more than 13,500 genomes from type material. By attaching it to a genome project, reference genomes submitted to the project are classified relative to the closest match in the database.
 
 The database is installed in the directory `~/.miga_db`. The resource request section is for a SLURM job scheduler.
 
@@ -11,7 +11,6 @@ The database is installed in the directory `~/.miga_db`. The resource request se
 #SBATCH --cpus-per-task=2       # number of CPUs (or cores) per task (same as -c)
 #SBATCH --mem-per-cpu=16G       # memory required per allocated CPU (or core) - amount of memory (in bytes)
 #SBATCH --job-name get_db       # you can give your job a name for easier identification (same as -J)
-#SBATCH -A colej
 
 ########## Command Lines to Run ##########
 ## Download the latest version of TypeMat_Lite to ~/.miga_db.
