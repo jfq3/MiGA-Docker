@@ -8,6 +8,7 @@
 * [Create the MiGA Container](create-container/create-intro.md)  
     * [Installing Locally](create-container/create-local-container.md) 
     * [Installing on a Cluster](create-container/cluster-installation.md)  
+* [Starting MiGA](starting-miga.md)    
 * [Add a Reference Database](create-container/add-reference-database.md)
     * [Using the Browser Interface](create-container/miga-web-add-reference-database.md)
     * [Using the Command Line](create-container/miga-cli-add-reference-database.md)
