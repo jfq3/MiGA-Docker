@@ -12,6 +12,7 @@
 * [Add a Reference Database](create-container/add-reference-database.md)
     * [Using the Browser Interface](create-container/miga-web-add-reference-database.md)
     * [Using the Command Line](create-container/miga-cli-add-reference-database.md)
+* [MiGA Projects](projects/miga-projects.md)
 * [Running Projects using MiGA-Web](web-projects/README.md)  
     * [Create a Genome Project](web-projects/create-a-reference-genome-project.md)  
     * [Classify a Genome](web-projects/classify_intro.md)  
