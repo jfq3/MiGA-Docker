@@ -4,7 +4,7 @@
 
 Log into the HPCC with your user name and password.
 
-**IMPORTANT:** Installation may not work from all nodes. Initially it worked only from dev-intel18.i, but since the HPCC upgrade was completed, I have installed MiGA from dev-intel16. If you have trouble, try a different node and let John Quensen know your experience. 
+**IMPORTANT:** Installation may not work from all nodes. Initially it worked only from dev-intel18.i, but since the HPCC upgrade was completed, I have installed MiGA from other nodes. If you have trouble, try a different node and let John Quensen know your experience. 
 
 ```
 ssh  dev-intel18
@@ -42,4 +42,4 @@ The two reference databases available are **TypeMat_Lite** and **Phyla_Lite**. T
 miga get_db -n Phyla_Lite
 ```
 
-Being so much larger, **TypeMat_Lite** takes approximately an hour to install. Thus, it is more conviniently installed by submitting a job. See the section **Submitting MiGA Jobs** for instructions.
+Being so much larger, **TypeMat_Lite** takes approximately an hour to install. Thus, it is more conveniently installed by submitting a job. See the section **Submitting MiGA Jobs** for instructions.
