@@ -1,8 +1,10 @@
-It is possible to classify reference genomes already in a project. You so this by editing the project to include a reference database.  
+# submitting-add-classification
 
-The following script will classify the genomes submitted in the previous project.  
+It is possible to classify reference genomes already in a project. You so this by editing the project to include a reference database.
 
-```
+The following script will classify the genomes submitted in the previous project.
+
+```text
 #!/bin/bash --login
 ########## SBATCH Lines for Resource Request ##########
 #SBATCH --time=01:00:00         # limit of wall clock time - how long the job will run (same as -t)
@@ -23,10 +25,12 @@ time miga daemon start -t -P . --shutdown-when-done
 exit
 EOF
 ```
-Times reported for this project were (real = wall time):  
- _   | Time
------|---
-real | 45m40.816s
-user | 226m55.092s
-sys  | 4m12.932s
+
+Times reported for this project were \(real = wall time\):
+
+| \_ | Time |
+| :--- | :--- |
+| real | 45m40.816s |
+| user | 226m55.092s |
+| sys | 4m12.932s |
 

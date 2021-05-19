@@ -1,12 +1,12 @@
 # Running a Genome Project
 
-For this exercise 6 *Psuedomonas* genomes with the file extension `fasta` should be in the directory `$HOME/miga_genomes/pseudo`. This will be the case if you followed the instructions in the section **Get Example Data**. Otherwise you will have to make adjustments to the commands below.
+For this exercise 6 _Psuedomonas_ genomes with the file extension `fasta` should be in the directory `$HOME/miga_genomes/pseudo`. This will be the case if you followed the instructions in the section **Get Example Data**. Otherwise you will have to make adjustments to the commands below.
 
 This exercise takes approximately 30 minutes to run.
 
 Log into the HPCC with your user name and password. From your home directory, start MiGA, create a new project named `pseudo`, and move into the `pseudo` directory:
 
-```
+```text
 cd
 mkdir pseudo
 singularity shell MiGA
@@ -23,7 +23,7 @@ For this example, we are using genomes from isolates.
 
 Add your datasets ending with fasta to the MiGA project. In doing this, turn off mytaxa scan and make sure distances is turned on, as in the command below. There must be no space after the comma\(s\) in the items listed for the -m flag or an error will occur. Here the -t flag specifies the type of genome being added to the project. The -i flag specifies that the datasets being uploaded are assembled genomes.
 
-```
+```text
 miga add -P . -t genome -i assembly ~/miga_genomes/pseudo/*.fasta -m run_mytaxa_scan=false,run_distances=true
 ```
 

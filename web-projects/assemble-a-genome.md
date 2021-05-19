@@ -1,6 +1,6 @@
 # Assemble a Genome
 
-MiGA-Web can assemble genomes from short reads \(*e.g.* Illumina shot-gun sequences\) from an isolate, a single-cell genome, or a highly enriched metagenome. The sequences input may be raw reads in fastq format or trimmed reads in fasta format. Raw reads will be quality trimmed automatically.
+MiGA-Web can assemble genomes from short reads \(_e.g._ Illumina shot-gun sequences\) from an isolate, a single-cell genome, or a highly enriched metagenome. The sequences input may be raw reads in fastq format or trimmed reads in fasta format. Raw reads will be quality trimmed automatically.
 
 For this exercise we will submit trimmed fasta reads from an isolate. Actually, this is a synthetic dataset made using Grinder to create 150 bp reads from _A. capsulatum_ with 10X coverage. The reads are unpaired.
 

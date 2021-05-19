@@ -2,8 +2,7 @@
 
 Added P. aereuginosa as a query genome.
 
-
-```
+```text
 #!/bin/bash --login
 ########## SBATCH Lines for Resource Request ##########
 #SBATCH --time=02:00:00         # limit of wall clock time - how long the job will run (same as -t)
@@ -26,12 +25,14 @@ EOF
 ```
 
 After the job finishes, entering the following:
-```
+
+```text
 less ~/miga_batch/data/09.distances/P_aeruginosa.intax.txt
 ```
-returns:
-```
 
+returns:
+
+```text
 Closest relative: P_alcaligenes with AAI: 67.73878174613809.
 
       Rank  Taxonomy  P-value             Signif.
@@ -49,11 +50,14 @@ subspecies  ?         0.702598652550529
 
 Significance at p-value below: *0.5, **0.1, ***0.05, ****0.01.
 ```
-The interpretation is that the query genome *P. aeruginosa*'s closeset match among the reference genomes already in the project is *P. alcalegenes*; the two belong to the same order and possibly to the same genus.  
 
-Times reported for this project were (real = wall time):  
- _   | Time
------|---
-real | 1m11.631s
-user | 1m05.713s
-sys  | 0m02.269s
+The interpretation is that the query genome _P. aeruginosa_'s closeset match among the reference genomes already in the project is _P. alcalegenes_; the two belong to the same order and possibly to the same genus.
+
+Times reported for this project were \(real = wall time\):
+
+| \_ | Time |
+| :--- | :--- |
+| real | 1m11.631s |
+| user | 1m05.713s |
+| sys | 0m02.269s |
+

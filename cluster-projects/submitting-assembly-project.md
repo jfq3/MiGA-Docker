@@ -1,8 +1,6 @@
 # Assemble a Genome from a Trimmed Fasta File
 
-
-
-```
+```text
 #!/bin/bash --login
 
 ########## SBATCH Lines for Resource Request ##########
@@ -26,13 +24,16 @@ time miga daemon start -t -P . --shutdown-when-done
 exit
 EOF
 ```
-A report on the assembled genome can be obtained with:
-```
-less  ~/test_assemble/data/07.annotation/01.function/01.essential/A_capsulatum_reads.ess/log
 
+A report on the assembled genome can be obtained with:
+
+```text
+less  ~/test_assemble/data/07.annotation/01.function/01.essential/A_capsulatum_reads.ess/log
 ```
+
 which reveals:
-```
+
+```text
 ! Collection: dupont_2012
 ! Essential genes found: 105/111.
 ! Completeness: 94.6%.
@@ -49,13 +50,14 @@ which reveals:
 !   TIGR00810: secG: preprotein translocase, SecG subunit.
 !   TIGR02387: rpoC1_cyan: DNA-directed RNA polymerase, gamma subunit.
 ```
+
 The assembled genome can be retrieved as `~/test_assemble/data/05.assembly/A_capsulatum_reads.AllContigs.fna`
 
+Times reported for this project were \(real = wall time\):
 
-Times reported for this project were (real = wall time):  
- _   | Time
------|---
-real | 8m42.971s
-user | 8m26.007s
-sys  | 0m05.480s
+| \_ | Time |
+| :--- | :--- |
+| real | 8m42.971s |
+| user | 8m26.007s |
+| sys | 0m05.480s |
 
