@@ -39,4 +39,4 @@
     * [Browsing MiGA-Web Results](results/README.md) 
         * [Project Results](results/project_results.md)
         * [Genome Results](results/genome_results.md)
-    *[Accessing MiGA-CLI Results](results/exploring_results.md)
+    * [Accessing MiGA-CLI Results](results/exploring_results.md)
