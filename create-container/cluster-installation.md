@@ -1,30 +1,30 @@
 # Installing MiGA using Singularity
 
-***Note: These instructionos are specific to the HPCC at Michigan State University, but should work with any cluster running Singularity.***  
+_**Note: These instructionos are specific to the HPCC at Michigan State University, but should work with any cluster running Singularity.**_
 
 Log into the HPCC with your user name and password.
 
-**IMPORTANT:** Installation may not work from all nodes. Initially it worked only from dev-intel18.i, but since the HPCC upgrade was completed, I have installed MiGA from other nodes. If you have trouble, try a different node and let John Quensen know your experience. 
+**IMPORTANT:** Installation may not work from all nodes. Initially it worked only from dev-intel18.i, but since the HPCC upgrade was completed, I have installed MiGA from other nodes. If you have trouble, try a different node and let John Quensen know your experience.
 
-```
+```text
 ssh  dev-intel18
 ```
 
 While in you home directory, create a singularitiy image of MiGA named MiGA using the command:
 
-```
+```text
 singularity build MiGA docker://miga/miga:1.0.2.0
 ```
 
 Once the image is successfully built, run the image shell to start MiGA by entering the command:
 
-```
+```text
 singularity shell MiGA
 ```
 
 MiGA must be initialized the first time the image is run using the command:
 
-```
+```text
 miga init
 ```
 
@@ -36,10 +36,11 @@ MiGA is now installed in your home directory. Close your connection to the HPCC.
 
 If you want to classify submitted genomes taxonomically, there are two reference databases available for the purpose. If you attach one of these to a project, then every reference genome submitted to the project will be classified.
 
-The two reference databases available are **TypeMat_Lite** and **Phyla_Lite**. The December 2020 version of **TypeMat_Lite** contains over 13,500 reference genomes from type material, and **Phyla Lite** contains reference genomes from all 40 bacterial and archaeal phyla. The following command will install the latest version of **Phyla_Lite** in `~/.miga_db`:
+The two reference databases available are **TypeMat\_Lite** and **Phyla\_Lite**. The December 2020 version of **TypeMat\_Lite** contains over 13,500 reference genomes from type material, and **Phyla Lite** contains reference genomes from all 40 bacterial and archaeal phyla. The following command will install the latest version of **Phyla\_Lite** in `~/.miga_db`:
 
-```
+```text
 miga get_db -n Phyla_Lite
 ```
 
-Being so much larger, **TypeMat_Lite** takes approximately an hour to install. Thus, it is more conveniently installed by submitting a job. See the section **Submitting MiGA Jobs** for instructions.
+Being so much larger, **TypeMat\_Lite** takes approximately an hour to install. Thus, it is more conveniently installed by submitting a job. See the section **Submitting MiGA Jobs** for instructions.
+

@@ -1,4 +1,4 @@
-## Project Results
+# Project Results
 
 To find information about a project, go to its home page. Some information is available for all project types. This includes:
 
@@ -20,3 +20,4 @@ For clade projects only, MiGA will report the following:
 * **OGS** - groups of othology using reciprocal best matches between all pairs of datasets. Click on **Learn more** for information about the types of files that can be downloaded.
 
 For indexed genome projects, **Project stats** displays a taxonomic tree of the genomes in the project. The reference databases available for download from the **Admin console** page are indexed genome projects.
+

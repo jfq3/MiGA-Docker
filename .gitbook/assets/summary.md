@@ -1,3 +1,4 @@
+<<<<<<< HEAD:summary.md
 # Table of contents
 
 * [MiGA-Docker](README.md)  

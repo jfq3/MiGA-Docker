@@ -1,6 +1,6 @@
 # Create a Clade Project
 
-A clade project is a collection of closely related genomes, *e.g.* from the same species. The genomes are compared against each other.
+A clade project is a collection of closely related genomes, _e.g._ from the same species. The genomes are compared against each other.
 
 For this exercise you may download several genomes of the same species from NCBI, or use the 10 _Dehalocccoides_ genomes available at [https://github.com/jfq3/data\_sets](https://github.com/jfq3/data_sets).
 

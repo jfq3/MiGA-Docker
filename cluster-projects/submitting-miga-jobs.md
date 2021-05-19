@@ -1,6 +1,6 @@
 # Submitting MiGA Jobs
 
-Below is an example submision script for running the same job as in the interactive genomes project. It assumes that the genomes to be processed are in the same directory, i.e. `~/miga_genomes`. The project directory is `~/miga_batch`. After starting the MiGA singularity container, the miga commands are the same as in the interactive example except this time we add a reference database (TypeMat_Lite) from RDP's research directory. The location and perhaps name of such a reference database would be different on other clusters.
+Below is an example submision script for running the same job as in the interactive genomes project. It assumes that the genomes to be processed are in the same directory, i.e. `~/miga_genomes`. The project directory is `~/miga_batch`. After starting the MiGA singularity container, the miga commands are the same as in the interactive example except this time we add a reference database \(TypeMat\_Lite\) from RDP's research directory. The location and perhaps name of such a reference database would be different on other clusters.
 
 Actual wall time for this example was ~ 22 minutes.
 
@@ -28,9 +28,11 @@ exit
 EOF
 ```
 
-Times reported for this project were (real = wall time):  
- _   | Time
------|---
-real | n
-user | n
-sys  | n
+Times reported for this project were \(real = wall time\):
+
+| \_ | Time |
+| :--- | :--- |
+| real | n |
+| user | n |
+| sys | n |
+

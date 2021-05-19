@@ -1,9 +1,10 @@
 # Submit a Genome Project with Classification
 
-It is also possible to request that reference genomes be classified against a reference databae when the project is first run. To do this, create the new project and edit it to include a reference project database. Then add the reference genomes and start the daemon. 
+It is also possible to request that reference genomes be classified against a reference databae when the project is first run. To do this, create the new project and edit it to include a reference project database. Then add the reference genomes and start the daemon.
 
-The following script assumes that you have installed **TypeMat_Lite** in `$HOME/.miga_db` (section "Installing_TypeMat_Lite") and that the reference sequences for this exercise are in `$HOME/miga_genomes/misc`.
-```
+The following script assumes that you have installed **TypeMat\_Lite** in `$HOME/.miga_db` \(section "Installing\_TypeMat\_Lite"\) and that the reference sequences for this exercise are in `$HOME/miga_genomes/misc`.
+
+```text
 #!/bin/bash --login
 ########## SBATCH Lines for Resource Request ##########
 #SBATCH --time=04:00:00         # limit of wall clock time - how long the job will run (same as -t)
@@ -26,13 +27,16 @@ time miga daemon start -t -P . --shutdown-when-done
 exit
 EOF
 ```
-A summary classification can be obtained with the miga command:
-```
 
+A summary classification can be obtained with the miga command:
+
+```text
 Singularity> miga ls -P ~/miga_class/ -m tax
 ```
+
 which returns:
-```
+
+```text
 Acidobacterium_capsulatum       d:Bacteria p:Acidobacteria c:Acidobacteriia o:Acidobacteriales
 Acinetobacter_baumanii  d:Bacteria p:Proteobacteria c:Gammaproteobacteria
 Bacillus_anthracis      d:Bacteria p:Firmicutes c:Bacilli o:Bacillales
@@ -44,15 +48,15 @@ Gemmatimonas_aurantiaca d:Bacteria p:Gemmatimonadetes c:Gemmatimonadetes o:Gemma
 Lacunisphaera_limnophila        d:Bacteria p:Verrucomicrobia c:Opitutae o:Opitutales
 ```
 
-Individual `*intax.txt` files for each genome can be found in directory  `~/miga_class/data/09.distances/05.taxonomy/`.  For example:  
+Individual `*intax.txt` files for each genome can be found in directory `~/miga_class/data/09.distances/05.taxonomy/`. For example:
 
-```
+```text
 less ~/miga_class/data/09.distances/05.taxonomy/Bifidobacterium_bifidum.intax.txt
 ```
 
-returns:  
+returns:
 
-```
+```text
 Closest relative: Bifidobacterium_scardovii_JCM_12489___DSM_13734_GCA_000770985 with AAI: 68.94928718008717.
 
       Rank  Taxonomy                                         P-value               Signif.
@@ -71,11 +75,11 @@ subspecies  ?                                                0.960990997377189
 Significance at p-value below: *0.5, **0.1, ***0.05, ****0.01.
 ```
 
+Times reported for this project were \(real = wall time\):
 
-Times reported for this project were (real = wall time):  
+| \_ | Time |
+| :--- | :--- |
+| real | 57m35.1466s |
+| user | 250m01.993s |
+| sys | 3m12.277s |
 
- _   | Time
------|---
-real | 57m35.1466s
-user | 250m01.993s
-sys  | 3m12.277s
