@@ -36,7 +36,7 @@ When you are finished, enter:
 
 ```text
 exit
-dockker stop miga
+docker stop miga
 ```
 
 ## Startng MiGA-Singularity

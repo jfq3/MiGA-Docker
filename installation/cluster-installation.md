@@ -11,7 +11,7 @@ ssh  dev-intel18
 While in you home directory, create a singularitiy image of MiGA named MiGA using the command:
 
 ```text
-singularity build MiGA docker://fyuan277/miga-web
+singularity build MiGA docker://miga/miga:1.0.2.0
 ```
 
 Once the image is successfully built, run the image shell to start MiGA by entering the command:
