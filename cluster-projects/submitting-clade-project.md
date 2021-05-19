@@ -1,8 +1,6 @@
 # Submit a Clade Project
 
-
-
-```
+```text
 #!/bin/bash --login
 ########## SBATCH Lines for Resource Request ##########
 #SBATCH --time=02:00:00         # limit of wall clock time - how long the job will run (same as -t)
@@ -24,15 +22,17 @@ miga add -P . -t genome -i assembly ~/dehalo_genomes/*.fna -m run_mytaxa_scan=fa
 time miga daemon start -t -P . --shutdown-when-done
 exit
 EOF
-
 ```
+
 Entering
 
-```
+```text
 less  ~/miga_clade/data/10.clades/02.ani/miga-project.class.tsv
 ```
+
 presents a table with the genomes in the first column and their clade assignment in the second column:
-```
+
+```text
 GCF_000011905_1_ASM1190v1_genomic       1
 GCF_000341655_1_ASM34165v1_genomic      2
 GCF_000341695_1_ASM34169v1_genomic      2
@@ -47,10 +47,11 @@ GCF_004684285_1_ASM468428v1_genomic     2
 
 A tree of the genomes in Newick format can be obtained from `~/miga_clade/data/10.clades/02.ani/miga-project.class.nwk`
 
-Times reported for this project were (real = wall time):  
- _   | Time
------|---
-real | 20m45.196s
-user | 95m26.944s
-sys  | 1m03.999s
+Times reported for this project were \(real = wall time\):
+
+| \_ | Time |
+| :--- | :--- |
+| real | 20m45.196s |
+| user | 95m26.944s |
+| sys | 1m03.999s |
 

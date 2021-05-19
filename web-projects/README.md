@@ -34,3 +34,4 @@ Reads to be assembled should come from pure cultures, single cells, or at least 
 ## Tutorials:
 
 The next section presents tutorials for running genome and clade projects, for classifying a genomes, and assembling trimmed and filtered short reads into contigs.
+
