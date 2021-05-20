@@ -82,4 +82,3 @@ Times reported for this project were \(real = wall time\):
 | real | 57m35.1466s |
 | user | 250m01.993s |
 | sys | 3m12.277s |
-

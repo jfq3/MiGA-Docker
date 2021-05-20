@@ -27,4 +27,3 @@ After processing is complete, all of the information available for genome projec
 In this example, MiGA proposes 3 subclades. Clicking on "report" under the heading **Subclades** presents a graphic showing how the clustering was done and a phylogenetic tree, also available in Newick format \(click on "ani tree."\)
 
 Other clade related information is available for each of the reference sequences under **Distances**. For each genome there is a statement about its closest relatives and ANI and AAI tables showing relatedness to the other genomes in the dataset.
-

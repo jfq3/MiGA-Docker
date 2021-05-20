@@ -13,7 +13,7 @@ docker pull miga/miga:1.0.2.0
 Create the Miga container and link it to a directory on you drive, _i.e._ external to the image, with the following:
 
 ```text
-docker run -p 9090:3000 -iga/miga:1it -v D:/miga:/root/miga-data -v db_volume:/miga/db --name miga miga/miga:1.0.2.0 /bin/bash
+docker run -p 9090:3000 -it -v D:/miga:/root/miga-data -v db_volume:/miga/db --name miga miga/miga:1.0.2.0 /bin/bash
 ```
 
 The line above enables file sharing with the container using the directory `D:/miga` on your computer. Edit this part of the command as appropriate. You will use this directory to input files to MiGA, and Miga will output results to this directory.
@@ -34,4 +34,3 @@ Exit MiGA with the command:
 ```text
 exit
 ```
-

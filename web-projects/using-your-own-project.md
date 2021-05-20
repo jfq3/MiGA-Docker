@@ -11,4 +11,3 @@ Start the daemon by clicking on the green website icon in the upper right, selec
 Return to your project page and monitor progress as you did for the genome exercise.
 
 After the project finishes, click on **Query datasets** and then the name of you query genome. In addition to everything reported for a reference genome, the **Distances** report will incude distances to the closest matche\(s\) in the reference database, the taxonomic classification with significance \(p-values\) for each rank, and a statement on taxonomic novelty. Also, under **Genome relatedness** you can download a phylogenetic tree in pdf or newick format showing the placement of the query genome relative to the reference genomes, and view a table giving the average AAI to genomes in the reference database.
-
