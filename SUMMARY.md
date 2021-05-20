@@ -32,7 +32,7 @@
 * [Assemble a Genome](miga-cli-projects/assemble-a-genome.md)
 
 ## Scripts for Cluster Projects
-* [Installing TypeMat\_Lite](cluster-projects/installing-typemat-lite.md)
+* [Installing TypeMat_Lite](cluster-projects/installing-typemat-lite.md)
 * [Submit a Genomes Project](cluster-projects/submitting-genome-project.md)
 * [Add a Query Sequence to a Genomes Project](cluster-projects/submitting-add-query.md)
 * [Add Classification to a Genome Project](cluster-projects/submitting-add-classification.md)
