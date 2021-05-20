@@ -31,4 +31,3 @@ Clicking on **Quality**, **Full report** gives the number of essential genes fou
 Under **Gene prediction** you have the opportunity to download protein sequences, gene sequences, and a **gff3** \(General Feature Format\) file. The gff3 file gives information on features in the genome sequence.
 
 **Assembly** reports statistics on the assembly.
-

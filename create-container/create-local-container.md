@@ -34,4 +34,3 @@ Exit MiGA with the command:
 ```text
 exit
 ```
-
