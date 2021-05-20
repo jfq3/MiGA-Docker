@@ -8,12 +8,11 @@
 * [Creating the MiGA Container](creating-the-container/README.md)
   * [Locally Using Docker Commands](creating-the-container/using-docker-commands.md)
   * [Installing MiGA using Singularity](creating-the-container/installing-miga-using-singularity.md)
+* [Starting MiGA](starting-miga.md)
 * [Add a Reference Database \(Optional\)](add-a-reference-database-optional/README.md)
   * [Add Reference Databases from the Command Line](add-a-reference-database-optional/add-reference-databases-from-the-command-line.md)
-  * [Add Reference Databases using MiGA-Web](add-a-reference-database-optional/add-reference-databases-using-miga-web.md)
-* [Starting MiGA](starting-miga.md)
+  * [Add Reference Databases using MiGA-Web](add-a-reference-database-optional/add-reference-databases-using-miga-web.md) 
 * [MiGA Projects](miga-projects.md)
-
 ## MiGA-Web Projects
 * [Create A Genome Project](miga-web-projects/create-a-genome-project.md)
 * [Classifying Genomes](miga-web-projects/classifying-genomes/README.md)
@@ -21,7 +20,6 @@
   * [Using a Reference Database](miga-web-projects/classifying-genomes/using-a-reference-database.md)
 * [Create a Clade Project](miga-web-projects/create-a-clade-project.md)
 * [Assemble a Genome](miga-web-projects/assemble-a-genome.md)
-
 ## MiGA-CLI Projects
 * [Introduction](miga-cli-projects/intro.md)
 * [Create a Genome Project](miga-cli-projects/create-a-genome-project.md)
