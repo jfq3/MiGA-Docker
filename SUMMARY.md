@@ -28,17 +28,15 @@
   * [Using a Reference Database](miga-cli-projects/classify-a-genome/using-a-reference-database.md)
 * [Create a Clade Project](miga-cli-projects/create-a-clade-project.md)
 * [Assemble a Genome](miga-cli-projects/assemble-a-genome.md)
-
 ## Scripts for Cluster Projects
-
-* [Installing TypeMat\_Lite](scripts-for-cluster-projects/installing-typemat_lite.md)
-* [Submit a Genomes Project](scripts-for-cluster-projects/ting-a-genomes-project.md)
-* [Add a Query Sequence to a Genomes Project](scripts-for-cluster-projects/submitting_add-a-query.md)
-* [Add Classification to a Genome Project](scripts-for-cluster-projects/submitting_add-classification.md)
-* [Submitting a Genome Project with Classification](scripts-for-cluster-projects/submitting-genome-with-classification.md)
-* [Submitting a Clade Project](scripts-for-cluster-projects/submitting-clade-project.md)
-* [Submitting an Assembly Project](scripts-for-cluster-projects/submitting-assembly-project.md)
-* [Submitting Large Jobs](scripts-for-cluster-projects/submitting-large-jobs.md)
+* [Installing TypeMat\_Lite](cluster-projects/installing-typemat_lite.md)
+* [Submit a Genomes Project](cluster-projects/ting-a-genomes-project.md)
+* [Add a Query Sequence to a Genomes Project](cluster-projects/submitting_add-a-query.md)
+* [Add Classification to a Genome Project](cluster-projects/submitting_add-classification.md)
+* [Submitting a Genome Project with Classification](cluster-projects/submitting-genome-with-classification.md)
+* [Submitting a Clade Project](cluster-projects/submitting-clade-project.md)
+* [Submitting an Assembly Project](cluster-projects/submitting-assembly-project.md)
+* [Submitting Large Jobs](cluster-projects/submitting-large-jobs.md)
 
 ## Exploring Results
 * [Exploring Results](exploring-results/exploring-results.md)
