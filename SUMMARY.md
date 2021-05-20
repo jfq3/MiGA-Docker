@@ -32,10 +32,10 @@
 * [Assemble a Genome](miga-cli-projects/assemble-a-genome.md)
 
 ## Scripts for Cluster Projects
-* [Installing TypeMat\_Lite](cluster-projects/installing-typemat_lite.md)
-* [Submit a Genomes Project](cluster-projects/submitting-a-genomes-project.md)
-* [Add a Query Sequence to a Genomes Project](cluster-projects/submitting_add-a-query.md)
-* [Add Classification to a Genome Project](cluster-projects/submitting_add-classification.md)
+* [Installing TypeMat\_Lite](cluster-projects/installing-typemat-lite.md)
+* [Submit a Genomes Project](cluster-projects/submitting-genome-project.md)
+* [Add a Query Sequence to a Genomes Project](cluster-projects/submitting-add-query.md)
+* [Add Classification to a Genome Project](cluster-projects/submitting-add-classification.md)
 * [Submitting a Genome Project with Classification](cluster-projects/submitting-genome-with-classification.md)
 * [Submitting a Clade Project](cluster-projects/submitting-clade-project.md)
 * [Submitting an Assembly Project](cluster-projects/submitting-assembly-project.md)
