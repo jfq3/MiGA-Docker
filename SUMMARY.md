@@ -13,6 +13,7 @@
   * [Add Reference Databases from the Command Line](add-a-reference-database-optional/add-reference-databases-from-the-command-line.md)
   * [Add Reference Databases using MiGA-Web](add-a-reference-database-optional/add-reference-databases-using-miga-web.md) 
 * [MiGA Projects](miga-projects.md)
+
 ## MiGA-Web Projects
 * [Create A Genome Project](miga-web-projects/create-a-genome-project.md)
 * [Classifying Genomes](miga-web-projects/classifying-genomes/README.md)
@@ -20,6 +21,7 @@
   * [Using a Reference Database](miga-web-projects/classifying-genomes/using-a-reference-database.md)
 * [Create a Clade Project](miga-web-projects/create-a-clade-project.md)
 * [Assemble a Genome](miga-web-projects/assemble-a-genome.md)
+
 ## MiGA-CLI Projects
 * [Introduction](miga-cli-projects/intro.md)
 * [Create a Genome Project](miga-cli-projects/create-a-genome-project.md)
@@ -28,9 +30,10 @@
   * [Using a Reference Database](miga-cli-projects/classify-a-genome/using-a-reference-database.md)
 * [Create a Clade Project](miga-cli-projects/create-a-clade-project.md)
 * [Assemble a Genome](miga-cli-projects/assemble-a-genome.md)
+
 ## Scripts for Cluster Projects
 * [Installing TypeMat\_Lite](cluster-projects/installing-typemat_lite.md)
-* [Submit a Genomes Project](cluster-projects/ting-a-genomes-project.md)
+* [Submit a Genomes Project](cluster-projects/submitting-a-genomes-project.md)
 * [Add a Query Sequence to a Genomes Project](cluster-projects/submitting_add-a-query.md)
 * [Add Classification to a Genome Project](cluster-projects/submitting_add-classification.md)
 * [Submitting a Genome Project with Classification](cluster-projects/submitting-genome-with-classification.md)
