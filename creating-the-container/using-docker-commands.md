@@ -1,4 +1,4 @@
-# Create the MiGA Container
+# Locally Using Docker Commands
 
 Start Docker if it is not already running.
 
@@ -34,3 +34,4 @@ Exit MiGA with the command:
 ```text
 exit
 ```
+
