@@ -13,6 +13,7 @@
   * [Add Reference Databases from the Command Line](add-a-reference-database-optional/add-reference-databases-from-the-command-line.md)
   * [Add Reference Databases using MiGA-Web](add-a-reference-database-optional/add-reference-databases-using-miga-web.md) 
 * [MiGA Projects](miga-projects.md)
+* [Get Example Data](get-data-files.md)
 
 ## MiGA-Web Projects
 * [Create A Genome Project](miga-web-projects/create-a-genome-project.md)
