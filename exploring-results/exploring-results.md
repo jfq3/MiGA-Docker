@@ -46,11 +46,11 @@ The tutorials include how to retrieve some of the more important results for eac
 
 The sub-directories under data and beginning with 01 thorugh 10 correspond to MiGA's sequential steps in processing data beginning with raw paired fastq files loaded into 01.raw\_reads. Not all steps need to be done. In most of the tutorials, we submitted assembled genomes in fasta format; they were loaded into 05.assembly and processing began there. In the genome assembly exercise, we began by loading already trimmed and quality filtered data into 04.trimmed. The genome projects ended with step 09.distances. Step 10.clades was performed only for the clade project. Each of these sub-directories beginning with 01 through 10 contain results for the associated data processing step.
 
-Some of the results are in text format \(sometimes compressed\), eg. tables, sequence files, gff files, nwk files. Others are in pdf format or Rdata format. The information in each file is explained in the [MiGA workflow section](https://manual.microbial-genomes.org/part5/workflow) of the MiGA manual, and you may download the files individually using FileZilla or a similar program.
+Some of the results are in text format \(sometimes compressed\), *e.g.* tables, sequence files, gff files, nwk files. Others are in pdf format or Rdata format. The information in each file is explained in the [MiGA workflow section](https://manual.microbial-genomes.org/part5/workflow) of the MiGA manual. If you are using MiGA on a cluster, you can download the files individually using FileZilla or a similar program.
 
 ### A Taxonomy Summary Script
 
-For projects including classification, Fang Yuan has written a script to summarize the results. For each classified genome it determines the closest reference genome, the distances to it, and writes the results to the file summary.csv. To use this script, move to the project/data/09.distance/05.taxonomy directory and run the following commands:
+For projects including classification, Fang Yuan has written a script to summarize the results. For each classified genome it determines the closest reference genome, the distances to it, and writes the results to the file summary.csv. To use this script, move into the project/data/09.distance/05.taxonomy directory and run the following commands:
 
 ```text
 wget https://github.com/jfq3/Miscellaneous-scripts/raw/master/miga_sumdb.sh
@@ -74,19 +74,30 @@ For the miscellaneous genomes project in these tutorials, this produces:
 
 ### A genome completeness and quality script
 
-John Quensen has written a python script to summarize the completeness, contamination, and quality of each genome n a project and write it to a tab-delimited file that my be viewed as is or loaded into a spread-sheet program like Excel. It takes two arguments: the path to the MiGA project and the name of the output file. Download and run the script by entering the following commands:
+John Quensen has written a python script to summarize the completeness, contamination, and quality of each genome in a project and write it to a tab-delimited file that my be viewed as is or loaded into a spread-sheet program like Excel. It takes two arguments: the path to the MiGA project and the name of the output file. Download and run the script by entering the following commands:
 
 ```text
 wget https://github.com/jfq3/Miscellaneous-scripts/raw/master/miga_completeness.py
 chmod u+x 
-./
+python ./miga-completeness.py /path/to/miga/project completness_summary.txt
 ```
 
-For the miscellaneous genomes project in ese tutorials, this produces:
+For the miscellaneous genomes project in these tutorials, this produces:
+
+
+```
+Completeness    Contamination   Quality Genome
+94.6            0.9             90.1    P_putida
+94.6            0.9             90.1    P_stutzeri
+95.5            0.9             91.0    P_alcaligenes
+94.6            0.9             90.1    P_syringae
+93.7            0.9             89.2    P_fluorescens
+94.6            0.9             90.1    P_mendocina
+```
 
 ### Browse the results with MiGA-Web
 
-MiGA was originally provided as a web-based program, and the results were delivered via a web browser. You can view MiGA results generated on a cluster in the same manner if you first install the Docker version of MiGA on your computer. Steps are as follow:
+MiGA was originally provided as a web-based program, and the results were delivered via a web browser. You can view MiGA results generated on a cluster in the same manner if you first install the Docker version of MiGA on your computer. Steps are as follows:
 
 1. If you have not already done so, install the [Docker Version](https://www.docker.com/products/docker-desktop) appropriate to your system \(Windows, Mac OS or Linux\).
 2. If you have not already done so, install MiGA-Web:
