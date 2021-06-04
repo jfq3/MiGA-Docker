@@ -7,7 +7,7 @@ The next time you want to use MiGA-Web, start Docker Desktop and wait until it i
 ```text
 docker start miga
 docker exec -it miga /bin/bash
-cd miga/
+cd miga-web/
 export SECRET_KEY_BASE=`bundle exec rake secret`
 bundle exec rails server -e production -b 0.0.0.0 -p 3000 Puma
 ```
@@ -29,17 +29,17 @@ To start a local installation of MiGA, start Docker Desktop and wait until it is
 ```text
 docker start miga
 docker exec -it miga /bin/bash
-cd miga/
+cd miga-web/
 ```
 
 When you are finished, enter:
 
 ```text
 exit
-dockker stop miga
+docker stop miga
 ```
 
-## Startng MiGA-Singularity
+## Starting MiGA-Singularity
 
 In most cases you will run MiGA on a cluster by submitting jobs, but there are occasions to run it interactively. To do so, log in to the cluster and issue the following command from your home directory:
 

@@ -23,7 +23,7 @@ The command also sets port 9090 for use with the MiGA-Web like version of the pr
 Create and configure the initialization files by entering the following:
 
 ```text
-cd miga/
+cd miga-web/
 miga init
 ```
 
